@@ -6,8 +6,8 @@ const jokes = [
     {
         setup: "Why did the student bring a ladder to school?",
         punchline: "Because they wanted to go to high school! 🏫",
-        setupImage: "setup.png",
-        punchlineImage: "punchline.png"
+        setupImage: "studentladder1.png",
+        punchlineImage: "afterladder.png"
     }
 ];
 
