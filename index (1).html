@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Joke - Interactive JavaScript Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">🎭 Animated Joke Lab</h1>
+            <p class="subtitle">Interactive JavaScript Experience</p>
+        </header>
+        
+        <main class="joke-container">
+            <div class="image-wrapper">
+                <img id="jokeImage" src="studentladder1.png" alt="after ladder.png" class="joke-image">
+                <div class="image-overlay"></div>
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="setup-section">
+                    <p id="setup" class="setup-text">Why did the student bring a ladder to school?</p>
+                </div>
+                
+                <button id="showPunchline" class="reveal-button">
+                    <span class="button-text">Tell me the punchline!</span>
+                    <span class="button-icon">🎪</span>
+                </button>
+                
+                <div class="punchline-section">
+                    <p id="punchline" class="punchline-text hidden">
+                        Because they wanted to go to high school! 🏫
+                    </p>
+                </div>
+                
+                <div class="controls">
+                    <button id="resetJoke" class="reset-button hidden">
+                        <span class="reset-text">Tell Another Joke</span>
+                        <span class="reset-icon">🔄</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <div class="learning-objectives">
+                <h3>Learning Objectives:</h3>
+                <ul class="objectives-list">
+                    <li>✨ DOM Manipulation with JavaScript</li>
+                    <li>🎨 Dynamic CSS Styling</li>
+                    <li>🎪 Interactive Event Handling</li>
+                    <li>⚡ Smooth Animations</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    
+    <div class="background-effects">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
